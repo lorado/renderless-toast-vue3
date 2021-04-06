@@ -4,7 +4,11 @@ This project was made in context of [Vue.js Cologne meetup](https://www.meetup.c
 
 In `src/libs/toastNotificationsPlugin.ts` you can find a simple plugin which implements basic toast notification functionality, and provides a renderless `toast-notifications` component.
 
-By using renderless components, you are able to style your notifications how you want. In `src/components` you can find three examples of using `toast-notifications`.
+By using renderless components, you are able to style your notifications how you want. In `src/components` you can find three examples of using `toast-notifications`:
+
+- some raw outputs, without much style/animation
+- using CSS from Bootstrap
+- using Tailwind CSS
 
 ## Will it work with Vue 2?
 
