@@ -36,14 +36,6 @@
     </div>
   </div>
 
-
-  <toast-notifications v-slot:default="{items}">
-    <div v-for="item of items">
-      [{{ item.type }}] {{ item.text }}
-    </div>
-  </toast-notifications>
-
-
   <ToastRaw v-if="toastType === 'raw'"/>
   <ToastBootstrap v-else-if="toastType === 'bootstrap'"/>
   <ToastTailwind v-else/>
